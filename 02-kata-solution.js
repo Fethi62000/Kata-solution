@@ -5,4 +5,17 @@ Write a program that uses console.log to print all the numbers from 1 to 100, wi
 When you have that working, modify your program to print "FizzBuzz" for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 */
 
+let num = 1
+
+if (num <= 100) {
+    console.log(num);
+} else if (num % 3 == 0) {
+    console.log("Fizz");
+} else if (num % 5 == 0) {
+    console.log("Buzz");
+} else if (num % 3 == 0 && num % 5 == 0) {
+    console.log("FizzBuzz");
+}
+
+
 

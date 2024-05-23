@@ -25,21 +25,14 @@ console.log(abc.length);
 */
 
 
-let triangle = 0;
+let triangle = "#\n"
+triangle += "##\n";
+triangle += "###\n";
+triangle += "####\n";
+triangle += "#####\n";
+triangle += "######\n";
+triangle += "#######\n";
 
-while (triangle < 8) {
-    console.log("#");
-    console.log("##");
-    console.log("###");
-    console.log("####");
-    console.log("#####");
-    console.log("######");
-    console.log("#######");
-}
 
-let i = 0;
 
-for (; i < 8; ++i) {
-    alert(i);
-}
-
+console.log(triangle);
