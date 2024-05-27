@@ -20,3 +20,4 @@ console.log(countChar("kakkerlak", "k"));
 // → 4
 ```
 */
+
