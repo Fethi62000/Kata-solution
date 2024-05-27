@@ -14,3 +14,21 @@ Define a recursive function isEven corresponding to this description. The functi
 
 Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?
 */
+
+
+
+
+
+
+function isEven(N) {
+    let i = Number(N);
+    if (i % 2 == 0) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}
+
+
+
+
